@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+generated
+prisma.yml
+yarn.lock
+.DS_Store

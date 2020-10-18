@@ -1,0 +1,27 @@
+{
+  "name": "my-blog-backend",
+  "version": "1.0.0",
+  "description": "making my-blog's backend with graphql and prisma",
+  "repository": "https://github.com/steven1103/my-blog-backend",
+  "author": "steven1103",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.2.4",
+    "@graphql-tools/merge": "^6.2.4",
+    "apollo-server": "^2.18.2",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec yarn babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
