@@ -1,0 +1,7 @@
+type Mutation {
+  createUser(username:String!, email:String!): Boolean!
+} 
+
+type Query {
+  lala:String
+}
