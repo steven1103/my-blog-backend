@@ -1,38 +1,31 @@
 # my-blog-backend
-===========================
-Making the blocks backend
-===========================
+
+* Making the blocks backend
+* Contributed by @steven1103 
 
 # TO-DO
-===========================
 
---CREATE--
-- [ ] Create User
-- [ ] Create Post
-- [ ] Create Comment
+
+CREATE
+- [x] Create User
+- [x] Create Post
+- [x] Create Comment
+- [x] Create Comment of Comment
 ----------
-
---READ--
+READ
 - [ ] See Post, and own environment
 --------
-
---UPDATE--
+UPDATE
 - [ ] Edit Profile
 - [ ] Edit Post
 - [ ] Edit Like
 ----------
-
---DELETE--
+DELETE
 - [ ] Delete Post 
 - [ ] Delete User
 ----------
-
---SPECIAL--
+SPECIAL
 - [ ] Admin
 -----------
-
-===========================
-
---Idea--
-- [ ] Main Post
-- [ ] 
+Idea
+- [x] Main Post

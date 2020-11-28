@@ -25,8 +25,8 @@ export default {
                   );
             }
             if(tags !== undefined){
-                tags.forEach(
-                    async tag =>
+                                    tags.forEach(
+async tag =>
                       await prisma.createTags({
                         text:tag,
                         post: {

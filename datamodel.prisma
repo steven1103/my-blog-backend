@@ -6,6 +6,7 @@ type User {
     value : "https://momo.nettvnepal.com.np/static/media/default-profile.cd6d11ef.png"
   )
   posts: [Post!]! @relation(name:"PostsOfUser", onDelete: CASCADE)
+  mainPost: Post @relation(name:"MainPostOfUser",onDelete:CASCADE)
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
   loginSecret : String
@@ -35,6 +36,7 @@ type Comment {
   text: String!
   user: User @relation(name: "CommentsOfUser")
   post: Post @relation(name: "CommentOfPost")
+  comments:[Comment!] @relation(name:"CommentsOfComments")
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }

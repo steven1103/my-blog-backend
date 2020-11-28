@@ -1,0 +1,3 @@
+type Mutation {
+    ComOfCom(commentId:String!, text:String!):Comment!
+}
