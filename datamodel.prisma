@@ -8,6 +8,7 @@ type User {
   posts: [Post!]! @relation(name:"PostsOfUser", onDelete: CASCADE)
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
+  loginSecret : String
 }
 type Post {
   id: ID! @id

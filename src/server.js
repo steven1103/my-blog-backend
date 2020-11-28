@@ -4,7 +4,7 @@ import logger from "morgan";
 import { authJWT } from "./passport";
 import schema from "./schema";
 import { isAuthenticated } from "./utils"
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({ 
   schema,
