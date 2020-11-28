@@ -11,13 +11,14 @@ CREATE
 - [x] Create Post
 - [x] Create Comment
 - [x] Create Comment of Comment
+- [ ] Toggle Like
 ----------
 READ
 - [x] See Post, and own environment
 --------
 UPDATE
 - [ ] Edit Profile
-- [ ] Edit Post
+- [x] Edit Post
 - [ ] Edit Like
 ----------
 DELETE
