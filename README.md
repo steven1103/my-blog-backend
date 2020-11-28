@@ -13,7 +13,7 @@ CREATE
 - [x] Create Comment of Comment
 ----------
 READ
-- [ ] See Post, and own environment
+- [x] See Post, and own environment
 --------
 UPDATE
 - [ ] Edit Profile
