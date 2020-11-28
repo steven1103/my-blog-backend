@@ -21,11 +21,11 @@ UPDATE
 - [ ] Edit Like
 ----------
 DELETE
-- [ ] Delete Post 
+- [x] Delete Post 
 - [ ] Delete User
 ----------
 SPECIAL
-- [ ] Admin
+- [x] Admin
 -----------
 Idea
 - [x] Main Post
