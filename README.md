@@ -1,7 +1,7 @@
 # my-blog-backend
 
 * Making the blocks backend
-* Contributed by @steven1103 
+* Contributed by [@steven1103](https://github.com/steven1103)
 
 # TO-DO
 
