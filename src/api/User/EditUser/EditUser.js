@@ -7,19 +7,19 @@ export default {
   Mutation: {
     editPost: async (_, args, { request, isAuthenticated }) => {
       isAuthenticated(request);
-      const { postId, title, text, action } = args;
+      const { id, avatar, action,bio } = args;
       const { user } = request;
-      const post = await prisma.$exists.post({ id:postId, user: { id: user.id } });
-      if (post) {
+      const me = await prisma.$exists.user({ id, user: { id: user.id } });
+      if (me) {
         if (action === EDIT) {
-          return prisma.updatePost({
-            data: { title,text },
+          return prisma.updateUser({
+            data: { avatar,bio },
             where: {
-               id:postId 
+               id 
               }
           });
         } else if (action === DELETE) {
-          return prisma.deletePost({ id:postId });
+          return prisma.deleteUser({ id });
         }
       } else {
         throw Error("You can't do that");

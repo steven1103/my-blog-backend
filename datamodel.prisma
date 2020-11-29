@@ -5,6 +5,7 @@ type User {
   avatar : String @default (
     value : "https://momo.nettvnepal.com.np/static/media/default-profile.cd6d11ef.png"
   )
+  bio:String
   posts: [Post!]! @relation(name:"PostsOfUser", onDelete: CASCADE)
   mainPost: Post @relation(name:"MainPostOfUser",onDelete:CASCADE)
   createdAt: DateTime! @createdAt

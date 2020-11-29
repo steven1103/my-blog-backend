@@ -1,5 +1,5 @@
 type Mutation {
-    editPost(postId:String,title:String,text:String,ACTION:Actions!):Post
+    editPost(postId:String!,title:String,text:String,action:Actions!):Post
 }
 
 enum Actions {

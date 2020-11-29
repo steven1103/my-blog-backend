@@ -1,0 +1,8 @@
+type Mutation {
+    editUser(id:String!,action:Actions!,avatar:String,bio:String):User
+}
+
+enum Actions {
+    DELETE,
+    EDIT
+}

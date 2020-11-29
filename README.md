@@ -1,11 +1,8 @@
 # my-blog-backend
-
-* Making the blocks backend
+* Making the blog backend
 * Contributed by [@steven1103](https://github.com/steven1103)
 
 # TO-DO
-
-
 CREATE
 - [x] Create User
 - [x] Create Post
@@ -17,13 +14,12 @@ READ
 - [x] See Post, and own environment
 --------
 UPDATE
-- [ ] Edit Profile
+- [x] Edit Profile
 - [x] Edit Post
-- [ ] Edit Like
 ----------
 DELETE
 - [x] Delete Post 
-- [ ] Delete User
+- [x] Delete User
 ----------
 SPECIAL
 - [x] Admin
