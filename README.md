@@ -12,6 +12,9 @@ CREATE
 ----------
 READ
 - [x] See Post, and own environment
+- [x] Search Post
+- [x] Pin Main Post
+- [x] see full Post
 --------
 UPDATE
 - [x] Edit Profile
@@ -24,5 +27,8 @@ DELETE
 SPECIAL
 - [x] Admin
 -----------
-Idea
+Utils
 - [x] Main Post
+- [x] PassPortJwt
+- [x] Mail
+- [x] isAdmin
