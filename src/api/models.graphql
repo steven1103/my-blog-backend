@@ -29,7 +29,8 @@ type Post {
 type Like {
   id: ID!
   user: User!
-  post: Post!
+  post: Post
+  comment:Comment
   createdAt: String
   updatedAt: String
 }
@@ -39,6 +40,7 @@ type Comment {
   text: String!
   user: User!
   post: Post!
+  like:[Like!]
   comments:[Comment!]
   createdAt: String
   updatedAt: String

@@ -37,6 +37,7 @@ type Comment {
   user: User @relation(name: "CommentsOfUser")
   post: Post @relation(name: "CommentOfPost")
   comments:[Comment!] @relation(name:"CommentsOfComments")
+  likes:[Like!] @relation(name:"LikeOfComment")
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }
@@ -51,6 +52,7 @@ type Like {
   id: ID! @id
   user: User @relation(name: "LikesOfUser")
   post: Post @relation(name: "LikeOfPost")
+  comments: Comment @relation(name:"LikeOfComment")
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }

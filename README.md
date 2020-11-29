@@ -11,7 +11,7 @@ CREATE
 - [x] Create Post
 - [x] Create Comment
 - [x] Create Comment of Comment
-- [ ] Toggle Like
+- [x] Toggle Like
 ----------
 READ
 - [x] See Post, and own environment
