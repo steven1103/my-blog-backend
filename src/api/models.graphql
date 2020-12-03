@@ -16,12 +16,12 @@ type Post {
   title:String!
   text: String!
   user: User!
-  files: [File!]!
-  likes: [Like!]!
-  comments: [Comment!]!
-  isLiked: Boolean!
-  likeCount: Int!
-  commentCount: Int!
+  files: [File!]
+  likes: [Like!]
+  comments: [Comment!]
+  isLiked: Boolean
+  likeCount: Int
+  commentCount: Int
   createdAt: String
   updatedAt: String
   tags:[Tags]

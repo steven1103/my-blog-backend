@@ -47,10 +47,10 @@ export const sendMail = (emailS) => {
 
 export const sendSecretMail = (adress, secret) => {
   const emailS = {
-    from : `Team Steven-DevBlog <>`,
+    from : `Team DEV.MAC-DevBlog <>`,
     to : adress,
-    subject : "Login Secret for Steven-Dev-Blog",
-    html : `<h2 style="font-weight:100; margin-left:10">Hi! This is Steven at Team DevBlog</h2><h2 style="color:grey; margin-left:78; font-weight:100;">Your login seret is<h2/>  <b style="font-size:200%; margin-left:120;">${secret}</b> <br/> <h2 style="font-weight:100; margin-left:10; color:grey;"> Copy and Paste on the web, thanks!</h2>`
+    subject : "Login Secret for devmac-Blog",
+    html : `<h2 style="font-weight:100; margin-left:10">Hi! This is devmac at Team DevBlog</h2><h2 style="color:grey; margin-left:78; font-weight:100;">로그인 코드는..<h2/>  <b style="font-size:200%; margin-left:120;">${secret}</b> <br/> <h2 style="font-weight:100; margin-left:10; color:grey;">사이트에 입력해주세요, 가입해주셔서 감사합니다!</h2>`
   }
   return sendMail(emailS)
 }

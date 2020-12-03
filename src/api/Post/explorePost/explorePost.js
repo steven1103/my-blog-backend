@@ -7,7 +7,8 @@ export default {
                 where:{
                 title_contains:""
             },
-            orderBy:"createdAt_DESC"
+            orderBy:"createdAt_DESC",
+            first:9,
         })
         }
     }

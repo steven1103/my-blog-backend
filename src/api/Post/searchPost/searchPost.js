@@ -8,7 +8,10 @@ export default {
             return prisma.posts({where:{OR:[
                 {tags_some:{text:term}},
                 {title_contains:term}
-            ]}})
+            ]
+        },last:9
+    }
+    )
         }
     }
 }
